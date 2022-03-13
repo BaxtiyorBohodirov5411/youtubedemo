@@ -3,7 +3,7 @@
         echo yii\bootstrap4\Nav::widget(
             [
                 'options'=>[
-                    'class'=>'d-flex flex-column nav-pills '
+                    'class'=>'d-flex flex-column w-100 nav-pills '
                 ],
                 'items'=>
                 [

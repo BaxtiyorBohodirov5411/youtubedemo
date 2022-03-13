@@ -18,7 +18,7 @@ use yii\helpers\Url;
                 <?php  echo \common\helpers\Html::channelLink($model->createdBy) ?>
             </p>
         <p class="text-muted card-text  m-0"><?=$model->getViews()->count()?> views
-            <?php echo Yii::$app->formatter->asRelativeTime($view?$view->created_at:$model->created_at)?></p>
+            <?php echo Yii::$app->formatter->asRelativeTime(isset($view)?$view->created_at:$model->created_at)?></p>
     </div>
     </div>
 </a>

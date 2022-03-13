@@ -7,7 +7,7 @@ use yii\helpers\Url;
 NavBar::begin([
     'brandLabel' => Yii::$app->name,
     'brandUrl' => Yii::$app->homeUrl,
-    'options'=>['class'=>'navbar-expand-lg navbar-light bg-light shadow-sm']
+    'options'=>['class'=>'navbar-expand-lg navbar-light bg-light shadow-sm w-100']
      ]);
 
 if (Yii::$app->user->isGuest) {
